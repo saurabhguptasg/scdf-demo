@@ -1,0 +1,8 @@
+---
+applications:
+- name: sg-nlp-processor
+  host: sg-nlp-processor
+  path: target/nlp-processor-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  instances: 1
+  memory: 2048M
